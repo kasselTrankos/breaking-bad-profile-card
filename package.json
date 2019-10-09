@@ -5,8 +5,9 @@
   "keywords": [],
   "main": "breaking-bad-profile-card.js",
   "dependencies": {
-    "lit-element": "^2.0.1",
-    "@cells-components/cells-lit-helpers": "^0.2.4"
+    "@cells-components/cells-i18n-mixin": "^1.2.0",
+    "@cells-components/cells-lit-helpers": "^0.2.4",
+    "lit-element": "^2.0.1"
   },
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "^2.2.1",

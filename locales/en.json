@@ -1,1 +1,9 @@
-{}
+{
+  "breaking-bad-profile-card-id": "id",
+  "breaking-bad-profile-card-nickname": "Nickname",
+  "breaking-bad-profile-card-birthday": "Birthday",
+  "breaking-bad-profile-card-status": "Status",
+  "breaking-bad-profile-card-occupation": "Occupation",
+  "breaking-bad-profile-card-played-by": "Played by",
+  "breaking-bad-profile-card-seasons-appearance": "Seasons Appearance"
+}

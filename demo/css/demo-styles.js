@@ -3,6 +3,6 @@ import { css, } from 'lit-element';
 
 setDocumentCustomStyles(css`
   #iframeBody {
-    margin: 0;
+    margin: 20px;
   }
 `);

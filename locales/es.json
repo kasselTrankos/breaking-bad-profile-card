@@ -1,1 +1,9 @@
-{}
+{
+  "breaking-bad-profile-card-id": "id",
+  "breaking-bad-profile-card-nickname": "Apodo",
+  "breaking-bad-profile-card-birthday": "Cumpleaños",
+  "breaking-bad-profile-card-status": "Estado",
+  "breaking-bad-profile-card-occupation": "Ocupación",
+  "breaking-bad-profile-card-played-by": "Retratado por",
+  "breaking-bad-profile-card-seasons-appearance": "Temporadas"
+}

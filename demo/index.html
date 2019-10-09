@@ -19,6 +19,11 @@
         };
       }
     </script>
+    <script>
+      window.I18nMsg = window.I18nMsg || {};
+      window.I18nMsg.lang = 'en';
+      window.I18nMsg.url = '../locales/';
+    </script>
     <script defer src="../build/component.js"></script>
     <script type="module" crossorigin="use-credentials">
       import '../build/demo-build.js';
@@ -28,10 +33,33 @@
   <body>
     <cells-demo-helper>
       <cells-demo-case heading="Basic" description="Default specs">
-        <template>
+        <template id="demo">
           <breaking-bad-profile-card></breaking-bad-profile-card>
           <script type="module">
             import data from './mock.js';
+
+            const comp = document.querySelector('breaking-bad-profile-card');
+            const {
+              img: image,
+              name,
+              char_id: id,
+              nickname,
+              birthday,
+              status,
+              occupation,
+              portrayed: playedBy,
+              appearance: seasons
+            } = data;
+
+            comp.image = image;
+            comp.name = name;
+            comp.id = id;
+            comp.nickname = nickname;
+            comp.birthday = birthday;
+            comp.status = status;
+            comp.occupation = occupation;
+            comp.playedBy = playedBy;
+            comp.seasons = seasons;
 
             console.log('This is the data', data);
           </script>
