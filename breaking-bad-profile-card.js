@@ -126,7 +126,7 @@ export class BreakingBadProfileCard extends cellsI18nMixin(LitElement) {
 
   _renderInfoArrayData(label, arrayValue) {
 
-    const arrayString = arrayValue ? arrayValue.reduce((result, item) => `${result}, ${item}`) : '';
+    const arrayString = arrayValue ? arrayValue.reduce((result, item) => `${result}, ${item}`, '') : '';
     return this._renderInfoStringData(label, arrayString);
   }
 }
